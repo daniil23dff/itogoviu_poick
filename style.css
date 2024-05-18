@@ -1,0 +1,90 @@
+header, footer {
+  background-color: #FF2B2B;
+  padding: 10px;
+}
+
+main {
+  padding: 10px;
+  background-color: silver;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.post img {
+  margin: 20px;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+main {
+  padding: 10px;
+  background-color: silver;
+}
+#menu1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+#menu1 ul {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  list-style: none;
+}
+#menu1 > ul::after {
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+  content: " ";
+}
+#menu1 ul li {
+  position: relative;
+  display: block;
+  float: left;
+  width: auto;
+  height: auto;
+}
+#menu1 ul li a {
+  display: block;
+  padding: 9px 25px 0;
+  font-size: 14px;
+  line-height: 1.3em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 36px;
+}
+#menu1 ul li ul {
+  display: none;
+}
+#menu1 ul li:hover ul{
+  display: block;
+}
+#menu1 ul li ul li{
+  float: none;
+  width: 100%;
+}
+h3{
+  background-color: red;
+}
+main{
+  background-color: 	blue;
+}
